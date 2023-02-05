@@ -15,7 +15,7 @@ body{
 }
 .container{
     background-color: #4F7FEE;
-    padding: 20px 40px;
+    padding: 20px 20px;
     height: 650px;
     width: 500px;
     display: flex;
@@ -23,6 +23,7 @@ body{
     flex-direction: column;
     border-radius: 10px;
     box-shadow: 1px 1px 4px rgba(81, 81, 81, 0.526);
+    margin: 0 20px;
 }
 
 .container h1{
@@ -82,4 +83,27 @@ input::placeholder{
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(57, 57, 57);
+}
+
+@media (max-width: 420px) {
+    .container{
+        width: 300px;
+    }
+    .container h1{
+        font-size: 2rem;
+    }
+    input{
+        width: 200px;
+        padding: 8px 11px;
+    }
+    input::placeholder{
+        font-size: .8rem;
+    }
+    #botao{
+        width: 200px;
+        padding: 8px 11px;  
+    }
+    #diagnostico{
+        font-size: 1rem;
+    }
 }
