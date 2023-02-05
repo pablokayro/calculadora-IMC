@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Overpass', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #4F7FEE;
+    padding: 20px 40px;
+    height: 650px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px rgba(81, 81, 81, 0.526);
+}
+
+.container h1{
+    color: white;
+    letter-spacing: -1px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    
+    text-align: center;
+}
+input{
+    width: 300px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 4px rgba(81, 81, 81, 0.526);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+input::placeholder{
+    color: rgb(57, 57, 57);;
+}
+
+#botao{
+    width: 300px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    background-color: #4F7FEE;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .2s;
+}
+
+#botao:hover{
+    background-color: white;
+    color: #4F7FEE;
+    transform: scale(1.04);
+}
+.container-diagnostico{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(81, 81, 81, 0.526);
+}
+#diagnostico{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(57, 57, 57);
+}
